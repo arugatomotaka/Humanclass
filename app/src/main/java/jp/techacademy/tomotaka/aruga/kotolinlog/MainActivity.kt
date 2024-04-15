@@ -13,8 +13,12 @@ class MainActivity : AppCompatActivity() {
 
         tarou.say()
 
-        val dokusyo = Human("太郎", 20, hobby = "読書")
+        tarou.think()
 
-        dokusyo.think()
+        val hanako= Human("花子", 18, hobby = "お花見")
+
+        hanako.say()
+        hanako.think()
     }
+
 }
